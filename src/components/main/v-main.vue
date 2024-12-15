@@ -17,7 +17,10 @@
                 </a>  
                 <a v-bind:href="link2" class="portfolio__item">
                     <img src="@/assets/img/works/online.jpg" alt="Онлайн запись">                  
-                </a>       
+                </a>  
+                <a v-bind:href="link3" class="portfolio__item">
+                    <img src="@/assets/img/works/cargo.jpg" alt="Онлайн запись">                  
+                </a>      
             </div>           
         </div>
     </div>
@@ -29,8 +32,9 @@ export default {
     name: 'vMain',
     data(){
         return{
-            link: 'http://www.vetlis.ru/',
-            link2: 'http://m911026o.beget.tech/'
+            link: 'https://www.vetlis.ru/',
+            link2: 'http://m911026o.beget.tech/',
+            link3: 'https://0vasiliy.github.io/cargo/'
         }
     }
 
