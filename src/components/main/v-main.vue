@@ -20,6 +20,9 @@
                 </a>  
                 <a v-bind:href="link3" class="portfolio__item">
                     <img src="@/assets/img/works/cargo.jpg" alt="Онлайн запись">                  
+                </a> 
+                <a v-bind:href="link4" class="portfolio__item">
+                    <img src="@/assets/img/works/canban.jpg" alt="Канбан доска">                  
                 </a>      
             </div>           
         </div>
@@ -34,7 +37,8 @@ export default {
         return{
             link: 'https://www.vetlis.ru/',
             link2: 'http://m911026o.beget.tech/',
-            link3: 'https://0vasiliy.github.io/cargo/'
+            link3: 'https://0vasiliy.github.io/cargo/',
+            link4: 'https://0vasiliy.github.io/canban-task/'
         }
     }
 
