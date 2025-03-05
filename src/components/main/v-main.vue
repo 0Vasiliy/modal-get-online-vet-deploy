@@ -29,7 +29,11 @@
                 <a v-bind:href="link4" class="portfolio__item">
                     <img src="@/assets/img/works/canban.jpg" alt="Канбан доска"> 
                     <h4>Desctop</h4>                  
-                </a>      
+                </a>  
+                <a v-bind:href="link5" class="portfolio__item">
+                    <img src="@/assets/img/works/calendar.jpg" alt="Календарь"> 
+                    <h4>Desctop</h4>                  
+                </a>     
             </div>           
         </div>
     </div>
@@ -44,7 +48,8 @@ export default {
             link: 'https://www.vetlis.ru/',
             link2: 'http://m911026o.beget.tech/',
             link3: 'https://0vasiliy.github.io/cargo/',
-            link4: 'https://0vasiliy.github.io/canban-task/'
+            link4: 'https://0vasiliy.github.io/canban-task/',
+            link5: 'https://portfolio-vkp.online/'
         }
     }
 
