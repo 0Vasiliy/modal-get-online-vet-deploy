@@ -23,7 +23,7 @@
                     <h4>Desctop и Mobile</h4>                  
                 </a>  
                 <a v-bind:href="link3" class="portfolio__item">
-                    <img src="@/assets/img/works/cargo.jpg" alt="Онлайн запись"> 
+                    <img src="@/assets/img/works/cargo.jpg" alt="Cargo"> 
                     <h4>Desctop и Mobile</h4>                  
                 </a> 
                 <a v-bind:href="link4" class="portfolio__item">
@@ -33,7 +33,11 @@
                 <a v-bind:href="link5" class="portfolio__item">
                     <img src="@/assets/img/works/calendar.jpg" alt="Календарь"> 
                     <h4>Desctop</h4>                  
-                </a>     
+                </a>  
+                <a v-bind:href="link6" class="portfolio__item">
+                    <img src="@/assets/img/works/control.jpg" alt="Список сотрудников"> 
+                    <h4>Desctop</h4>                  
+                </a> 
             </div>           
         </div>
     </div>
@@ -49,7 +53,8 @@ export default {
             link2: 'http://m911026o.beget.tech/',
             link3: 'https://0vasiliy.github.io/cargo/',
             link4: 'https://0vasiliy.github.io/canban-task/',
-            link5: 'https://portfolio-vkp.online/'
+            link5: 'https://0vasiliy.github.io/calendar-form/ ',
+            link6: 'https://0vasiliy.github.io/control/',
         }
     }
 
