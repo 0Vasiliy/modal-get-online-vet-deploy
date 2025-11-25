@@ -1,5 +1,14 @@
+// const { defineConfig } = require('@vue/cli-service')
+// module.exports = defineConfig({
+//   publicPath: process.env.NODE_ENV === 'production' 
+//   ? '/modal-get-online-vet-deploy/' 
+//   : '/',
+//   transpileDependencies: true,
+// })
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/modal-get-online-vet-deploy/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' 
+    ? '/modal-get-online-vet-deploy/'  // путь для GitHub Pages проекта
+    : '/',
   transpileDependencies: true,
 })

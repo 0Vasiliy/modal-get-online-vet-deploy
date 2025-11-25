@@ -9,6 +9,6 @@ export default new VueRouter({
         },
        
     ],
-    mode: 'history',
-    base:"/",
+    mode: 'hash', // hash mode для работы на GitHub Pages
+    base: process.env.NODE_ENV === 'production' ? '/modal-get-online-vet-deploy/' : '/',
 })
