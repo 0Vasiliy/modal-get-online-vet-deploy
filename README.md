@@ -1,24 +1,45 @@
-# vueproject
+# Модальная форма записи к ветеринару
 
-## Project setup
-```
+Vue.js приложение с модальной формой для записи на онлайн-консультацию.
+
+## Технологии
+
+- Vue.js 2.7
+- Vue Router
+- Firebase Realtime Database
+- EmailJS
+- Vuelidate (валидация форм)
+- Bootstrap 5
+- Axios
+
+## Установка
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Разработка
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+## Сборка для production
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## Деплой на GitHub Pages
+https://0vasiliy.github.io/modal-get-online-vet-deploy/
+
+```bash
+npm run deploy
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Функционал
+
+- Модальная форма с валидацией полей
+- Отправка данных в Firebase Realtime Database
+- Отправка email через EmailJS
+- Адаптивный дизайн
